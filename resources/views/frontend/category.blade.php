@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Food Price</h2>
+                <h2>Pood List</h2>
                 </div>
                 <div class="row ">
                     @foreach ($category as $cate )

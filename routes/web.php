@@ -61,6 +61,7 @@ Route::middleware(['auth' ])->group(function () {
     Route::get('checkout', [CheckoutController::class , 'index']);
     Route::post('place-order',[CheckoutController::class , 'placeOrder']);
     Route::get('my-order',[UserController::class , 'index']);
+    Route::get('managefood',[UserController::class , 'managefood']);
     Route::get('view-order/{id}',[UserController::class , 'viewOrder']);
 });
 
